@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    {% assets "main_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+    {% assets "main_css" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}"/>
+    {% endassets %}
+
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-    <p>Parent</p>
-    {% block body %}
-    {% endblock %}
+<p>Parent</p>
+{% block body %}
+{% endblock %}
 </body>
 </html>
