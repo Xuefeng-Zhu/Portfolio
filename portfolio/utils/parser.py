@@ -2,9 +2,9 @@ __author__ = 'Xuefeng Zhu'
 
 import os
 import xmltodict
-from portfolio.model.project import Project
-from portfolio.model.file import File
-from portfolio.model.log import Log
+from portfolio.models.project import Project
+from portfolio.models.file import File
+from portfolio.models.log import Log
 
 
 def parse_svn_list():
