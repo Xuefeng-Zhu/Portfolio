@@ -1,0 +1,2289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp15-cs242/xzhu15">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Procfile</name>
+<size>21</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/README.md</name>
+<size>3779</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/__init__.py</name>
+<size>0</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/api</name>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api/__init__.py</name>
+<size>0</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api/friendsAPI.py</name>
+<size>4364</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api/passwordAPI.py</name>
+<size>3085</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api/postAPI.py</name>
+<size>1122</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api/profileAPI.py</name>
+<size>3222</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api/userAPI.py</name>
+<size>5206</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/api_manual</name>
+<size>1713</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/app.py</name>
+<size>1524</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/config.py</name>
+<size>559</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/model</name>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/model/__init__.py</name>
+<size>172</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/model/friend.py</name>
+<size>217</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/model/post.py</name>
+<size>292</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/model/profile.py</name>
+<size>578</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/model/request.py</name>
+<size>254</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/model/user.py</name>
+<size>1092</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/requirements.txt</name>
+<size>137</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/templates</name>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/templates/activate_account.html</name>
+<size>7478</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/templates/activate_account.txt</name>
+<size>448</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/templates/forget_password.html</name>
+<size>8236</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/templates/forget_password.txt</name>
+<size>455</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/test</name>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/test/__init__.py</name>
+<size>0</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/test/friends_test.py</name>
+<size>1108</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/test/login_test.py</name>
+<size>569</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/test/password_test.py</name>
+<size>868</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/test/profile_test.py</name>
+<size>1091</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/util</name>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/util/__init__.py</name>
+<size>0</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/util/emails.py</name>
+<size>1683</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/util/serialize.py</name>
+<size>1224</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/util/userAuth.py</name>
+<size>1057</size>
+<commit
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="1280">
+<author>xzhu15</author>
+<date>2015-02-13T20:17:03.951782Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.classpath</name>
+<size>414</size>
+<commit
+   revision="868">
+<author>xzhu15</author>
+<date>2015-02-11T22:45:07.072226Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.project</name>
+<size>364</size>
+<commit
+   revision="670">
+<author>xzhu15</author>
+<date>2015-02-09T02:17:29.178609Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.settings</name>
+<commit
+   revision="670">
+<author>xzhu15</author>
+<date>2015-02-09T02:17:29.178609Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>587</size>
+<commit
+   revision="670">
+<author>xzhu15</author>
+<date>2015-02-09T02:17:29.178609Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="1280">
+<author>xzhu15</author>
+<date>2015-02-13T20:17:03.951782Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/board</name>
+<commit
+   revision="1275">
+<author>xzhu15</author>
+<date>2015-02-13T19:57:30.233758Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/board/ChessBoard.java</name>
+<size>4545</size>
+<commit
+   revision="1275">
+<author>xzhu15</author>
+<date>2015-02-13T19:57:30.233758Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/board/Location.java</name>
+<size>1128</size>
+<commit
+   revision="1137">
+<author>xzhu15</author>
+<date>2015-02-13T07:05:55.390791Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/management</name>
+<commit
+   revision="1280">
+<author>xzhu15</author>
+<date>2015-02-13T20:17:03.951782Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/management/GameLoop.java</name>
+<size>330</size>
+<commit
+   revision="1280">
+<author>xzhu15</author>
+<date>2015-02-13T20:17:03.951782Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/management/GameManager.java</name>
+<size>1912</size>
+<commit
+   revision="1187">
+<author>xzhu15</author>
+<date>2015-02-13T16:07:10.259510Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/management/Player.java</name>
+<size>3520</size>
+<commit
+   revision="1187">
+<author>xzhu15</author>
+<date>2015-02-13T16:07:10.259510Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/pieces</name>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/Bishop.java</name>
+<size>473</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/King.java</name>
+<size>1041</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/Knight.java</name>
+<size>525</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/Pawn.java</name>
+<size>2275</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/Piece.java</name>
+<size>3588</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/Queen.java</name>
+<size>520</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/pieces/Rook.java</name>
+<size>463</size>
+<commit
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/test</name>
+<commit
+   revision="1244">
+<author>xzhu15</author>
+<date>2015-02-13T18:36:56.480237Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/ChessBoardTest.java</name>
+<size>4025</size>
+<commit
+   revision="1237">
+<author>xzhu15</author>
+<date>2015-02-13T18:23:17.718420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/GameManagerTest.java</name>
+<size>1134</size>
+<commit
+   revision="1238">
+<author>xzhu15</author>
+<date>2015-02-13T18:24:31.241009Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/PlayerTest.java</name>
+<size>6946</size>
+<commit
+   revision="1231">
+<author>xzhu15</author>
+<date>2015-02-13T17:54:17.342620Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/test/pieces</name>
+<commit
+   revision="1244">
+<author>xzhu15</author>
+<date>2015-02-13T18:36:56.480237Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/BishopTest.java</name>
+<size>1904</size>
+<commit
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/KingTest.java</name>
+<size>2594</size>
+<commit
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/KnightTest.java</name>
+<size>1611</size>
+<commit
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/PawnTest.java</name>
+<size>1590</size>
+<commit
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/PieceTest.java</name>
+<size>1331</size>
+<commit
+   revision="1244">
+<author>xzhu15</author>
+<date>2015-02-13T18:36:56.480237Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/QueenTest.java</name>
+<size>1885</size>
+<commit
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/pieces/RookTest.java</name>
+<size>1890</size>
+<commit
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="2291">
+<author>xzhu15</author>
+<date>2015-02-20T20:42:08.618491Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.classpath</name>
+<size>414</size>
+<commit
+   revision="1773">
+<author>xzhu15</author>
+<date>2015-02-18T21:15:49.471242Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.project</name>
+<size>364</size>
+<commit
+   revision="1773">
+<author>xzhu15</author>
+<date>2015-02-18T21:15:49.471242Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.settings</name>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.settings/org.eclipse.jdt.core.prefs</name>
+<size>658</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="2119">
+<author>xzhu15</author>
+<date>2015-02-20T02:23:16.208943Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Manual Test Plan.docx</name>
+<size>223605</size>
+<commit
+   revision="2291">
+<author>xzhu15</author>
+<date>2015-02-20T20:42:08.618491Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/res</name>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/res/black</name>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/black/bishop.png</name>
+<size>4482</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/black/king.png</name>
+<size>4591</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/black/knight.png</name>
+<size>4597</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/black/pawn.png</name>
+<size>4373</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/black/queen.png</name>
+<size>4935</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/black/rook.png</name>
+<size>4531</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/res/white</name>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/white/bishop.png</name>
+<size>4675</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/white/king.png</name>
+<size>4707</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/white/knight.png</name>
+<size>4792</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/white/pawn.png</name>
+<size>4503</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/white/queen.png</name>
+<size>5075</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/res/white/rook.png</name>
+<size>4652</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="2289">
+<author>xzhu15</author>
+<date>2015-02-20T20:38:33.447738Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/board</name>
+<commit
+   revision="2038">
+<author>xzhu15</author>
+<date>2015-02-19T23:09:28.621724Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/board/ChessBoard.java</name>
+<size>4697</size>
+<commit
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/board/Location.java</name>
+<size>1180</size>
+<commit
+   revision="2038">
+<author>xzhu15</author>
+<date>2015-02-19T23:09:28.621724Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/gui</name>
+<commit
+   revision="2289">
+<author>xzhu15</author>
+<date>2015-02-20T20:38:33.447738Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/gui/ChessBoardPanel.java</name>
+<size>1353</size>
+<commit
+   revision="2095">
+<author>xzhu15</author>
+<date>2015-02-20T01:16:42.468639Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/gui/ChessGameFrame.java</name>
+<size>1685</size>
+<commit
+   revision="2289">
+<author>xzhu15</author>
+<date>2015-02-20T20:38:33.447738Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/gui/GameControlPanel.java</name>
+<size>569</size>
+<commit
+   revision="2095">
+<author>xzhu15</author>
+<date>2015-02-20T01:16:42.468639Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/gui/GameStatPanel.java</name>
+<size>499</size>
+<commit
+   revision="2095">
+<author>xzhu15</author>
+<date>2015-02-20T01:16:42.468639Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/management</name>
+<commit
+   revision="2129">
+<author>xzhu15</author>
+<date>2015-02-20T03:31:25.400146Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/management/GameLoop.java</name>
+<size>330</size>
+<commit
+   revision="1773">
+<author>xzhu15</author>
+<date>2015-02-18T21:15:49.471242Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/management/GameManager.java</name>
+<size>3261</size>
+<commit
+   revision="2129">
+<author>xzhu15</author>
+<date>2015-02-20T03:31:25.400146Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/management/Player.java</name>
+<size>3604</size>
+<commit
+   revision="2037">
+<author>xzhu15</author>
+<date>2015-02-19T23:09:05.687543Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/pieces</name>
+<commit
+   revision="2098">
+<author>xzhu15</author>
+<date>2015-02-20T01:22:18.191466Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Bishop.java</name>
+<size>489</size>
+<commit
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Ferz.java</name>
+<size>521</size>
+<commit
+   revision="2098">
+<author>xzhu15</author>
+<date>2015-02-20T01:22:18.191466Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/King.java</name>
+<size>1055</size>
+<commit
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Knight.java</name>
+<size>541</size>
+<commit
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Nightrider.java</name>
+<size>597</size>
+<commit
+   revision="2098">
+<author>xzhu15</author>
+<date>2015-02-20T01:22:18.191466Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Pawn.java</name>
+<size>2297</size>
+<commit
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Piece.java</name>
+<size>3785</size>
+<commit
+   revision="2040">
+<author>xzhu15</author>
+<date>2015-02-19T23:10:39.776017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Queen.java</name>
+<size>535</size>
+<commit
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Rook.java</name>
+<size>477</size>
+<commit
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/test</name>
+<commit
+   revision="2129">
+<author>xzhu15</author>
+<date>2015-02-20T03:31:25.400146Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/ChessBoardTest.java</name>
+<size>3986</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/GameManagerTest.java</name>
+<size>1249</size>
+<commit
+   revision="2129">
+<author>xzhu15</author>
+<date>2015-02-20T03:31:25.400146Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/PlayerTest.java</name>
+<size>6621</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/test/pieces</name>
+<commit
+   revision="2108">
+<author>xzhu15</author>
+<date>2015-02-20T01:43:12.238518Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/BishopTest.java</name>
+<size>1813</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/FerzTest.java</name>
+<size>1766</size>
+<commit
+   revision="2108">
+<author>xzhu15</author>
+<date>2015-02-20T01:43:12.238518Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/KingTest.java</name>
+<size>2464</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/KnightTest.java</name>
+<size>1546</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/NightriderTest.java</name>
+<size>1618</size>
+<commit
+   revision="2108">
+<author>xzhu15</author>
+<date>2015-02-20T01:43:12.238518Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/PawnTest.java</name>
+<size>1525</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/PieceTest.java</name>
+<size>1292</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/QueenTest.java</name>
+<size>1794</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/pieces/RookTest.java</name>
+<size>1799</size>
+<commit
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="3035">
+<author>xzhu15</author>
+<date>2015-02-27T19:32:35.920151Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.classpath</name>
+<size>414</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.project</name>
+<size>364</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.settings</name>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.settings/org.eclipse.jdt.core.prefs</name>
+<size>658</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Manual Test Plan.docx</name>
+<size>1888267</size>
+<commit
+   revision="3035">
+<author>xzhu15</author>
+<date>2015-02-27T19:32:35.920151Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/res</name>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/res/black</name>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/black/bishop.png</name>
+<size>4482</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/black/king.png</name>
+<size>4591</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/black/knight.png</name>
+<size>4597</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/black/pawn.png</name>
+<size>4373</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/black/queen.png</name>
+<size>4935</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/black/rook.png</name>
+<size>4531</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/res/white</name>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/white/bishop.png</name>
+<size>4675</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/white/king.png</name>
+<size>4707</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/white/knight.png</name>
+<size>4792</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/white/pawn.png</name>
+<size>4503</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/white/queen.png</name>
+<size>5075</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/res/white/rook.png</name>
+<size>4652</size>
+<commit
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="3031">
+<author>xzhu15</author>
+<date>2015-02-27T19:28:03.891917Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/board</name>
+<commit
+   revision="2612">
+<author>xzhu15</author>
+<date>2015-02-24T22:17:30.126971Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/board/Chessboard.java</name>
+<size>4730</size>
+<commit
+   revision="2612">
+<author>xzhu15</author>
+<date>2015-02-24T22:17:30.126971Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/board/Location.java</name>
+<size>1235</size>
+<commit
+   revision="2612">
+<author>xzhu15</author>
+<date>2015-02-24T22:17:30.126971Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/gui</name>
+<commit
+   revision="3031">
+<author>xzhu15</author>
+<date>2015-02-27T19:28:03.891917Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/gui/ChessBoardPanel.java</name>
+<size>6481</size>
+<commit
+   revision="3031">
+<author>xzhu15</author>
+<date>2015-02-27T19:28:03.891917Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/gui/ChessGameFrame.java</name>
+<size>4087</size>
+<commit
+   revision="2620">
+<author>xzhu15</author>
+<date>2015-02-24T22:50:47.585442Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/gui/GameControlPanel.java</name>
+<size>3051</size>
+<commit
+   revision="2621">
+<author>xzhu15</author>
+<date>2015-02-24T22:53:09.582811Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/gui/GameStatPanel.java</name>
+<size>3090</size>
+<commit
+   revision="2623">
+<author>xzhu15</author>
+<date>2015-02-24T22:58:27.986188Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/management</name>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/management/GameManager.java</name>
+<size>5798</size>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/management/Movement.java</name>
+<size>272</size>
+<commit
+   revision="2610">
+<author>xzhu15</author>
+<date>2015-02-24T22:15:48.687539Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/management/Player.java</name>
+<size>3886</size>
+<commit
+   revision="2610">
+<author>xzhu15</author>
+<date>2015-02-24T22:15:48.687539Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/pieces</name>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Bishop.java</name>
+<size>511</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Ferz.java</name>
+<size>501</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/King.java</name>
+<size>1053</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Knight.java</name>
+<size>571</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Nightrider.java</name>
+<size>591</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Pawn.java</name>
+<size>2660</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Piece.java</name>
+<size>4412</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Queen.java</name>
+<size>564</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Rook.java</name>
+<size>499</size>
+<commit
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/test</name>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/ChessBoardTest.java</name>
+<size>3918</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/GameManagerTest.java</name>
+<size>3083</size>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/PlayerTest.java</name>
+<size>7314</size>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/test/pieces</name>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/BishopTest.java</name>
+<size>1784</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/FerzTest.java</name>
+<size>1737</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/KingTest.java</name>
+<size>2421</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/KnightTest.java</name>
+<size>1524</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/NightriderTest.java</name>
+<size>1596</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/PawnTest.java</name>
+<size>1504</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/PieceTest.java</name>
+<size>1756</size>
+<commit
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/QueenTest.java</name>
+<size>1765</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/test/pieces/RookTest.java</name>
+<size>1770</size>
+<commit
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="3672">
+<author>xzhu15</author>
+<date>2015-03-06T23:05:48.836371Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/cmd_interface.py</name>
+<size>1616</size>
+<commit
+   revision="3575">
+<author>xzhu15</author>
+<date>2015-03-06T07:51:41.960669Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="3345">
+<author>xzhu15</author>
+<date>2015-03-04T20:37:57.369277Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/module</name>
+<commit
+   revision="3672">
+<author>xzhu15</author>
+<date>2015-03-06T23:05:48.836371Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/module/AirGraph.py</name>
+<size>4381</size>
+<commit
+   revision="3672">
+<author>xzhu15</author>
+<date>2015-03-06T23:05:48.836371Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/module/City.py</name>
+<size>1183</size>
+<commit
+   revision="3575">
+<author>xzhu15</author>
+<date>2015-03-06T07:51:41.960669Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/module/DataManager.py</name>
+<size>3806</size>
+<commit
+   revision="3672">
+<author>xzhu15</author>
+<date>2015-03-06T23:05:48.836371Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/module/Route.py</name>
+<size>245</size>
+<commit
+   revision="3575">
+<author>xzhu15</author>
+<date>2015-03-06T07:51:41.960669Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/module/__init__.py</name>
+<size>27</size>
+<commit
+   revision="3331">
+<author>xzhu15</author>
+<date>2015-03-04T17:53:12.754500Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/tests</name>
+<commit
+   revision="3619">
+<author>xzhu15</author>
+<date>2015-03-06T18:23:11.723048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="3571">
+<author>xzhu15</author>
+<date>2015-03-06T07:16:01.331661Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/test_air_graph.py</name>
+<size>3851</size>
+<commit
+   revision="3619">
+<author>xzhu15</author>
+<date>2015-03-06T18:23:11.723048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/test_data.json</name>
+<size>886</size>
+<commit
+   revision="3571">
+<author>xzhu15</author>
+<date>2015-03-06T07:16:01.331661Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/test_data_manager.py</name>
+<size>928</size>
+<commit
+   revision="3619">
+<author>xzhu15</author>
+<date>2015-03-06T18:23:11.723048Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea</name>
+<commit
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/.name</name>
+<size>11</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/assignment2.iml</name>
+<size>284</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/encodings.xml</name>
+<size>164</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/misc.xml</name>
+<size>2034</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/modules.xml</name>
+<size>274</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea/scopes</name>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/scopes/scope_settings.xml</name>
+<size>139</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/workspace.xml</name>
+<size>63239</size>
+<commit
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/cmd_interface.py</name>
+<size>9703</size>
+<commit
+   revision="3925">
+<author>xzhu15</author>
+<date>2015-03-12T04:51:04.072331Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/cmi_hub.json</name>
+<size>1104</size>
+<commit
+   revision="3743">
+<author>xzhu15</author>
+<date>2015-03-09T05:40:28.948190Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/module</name>
+<commit
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/module/AirGraph.py</name>
+<size>7719</size>
+<commit
+   revision="3881">
+<author>xzhu15</author>
+<date>2015-03-11T19:54:11.762709Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/module/City.py</name>
+<size>1799</size>
+<commit
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/module/DataManager.py</name>
+<size>9359</size>
+<commit
+   revision="3925">
+<author>xzhu15</author>
+<date>2015-03-12T04:51:04.072331Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/module/Route.py</name>
+<size>245</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/module/__init__.py</name>
+<size>27</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/tests</name>
+<commit
+   revision="3921">
+<author>xzhu15</author>
+<date>2015-03-12T04:29:42.308357Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/cmi_hub.json</name>
+<size>1104</size>
+<commit
+   revision="3891">
+<author>xzhu15</author>
+<date>2015-03-11T21:25:09.980728Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/map_data.json</name>
+<size>41952</size>
+<commit
+   revision="3709">
+<author>xzhu15</author>
+<date>2015-03-08T20:47:09.684482Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/test_air_graph.py</name>
+<size>6138</size>
+<commit
+   revision="3882">
+<author>xzhu15</author>
+<date>2015-03-11T20:03:32.312599Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/test_cmd_interface.py</name>
+<size>1242</size>
+<commit
+   revision="3891">
+<author>xzhu15</author>
+<date>2015-03-11T21:25:09.980728Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/test_data.json</name>
+<size>886</size>
+<commit
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/test_data_manager.py</name>
+<size>2889</size>
+<commit
+   revision="3921">
+<author>xzhu15</author>
+<date>2015-03-12T04:29:42.308357Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/tools</name>
+<commit
+   revision="3699">
+<author>xzhu15</author>
+<date>2015-03-08T06:04:15.947163Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tools/directed_graph_concerter.py</name>
+<size>513</size>
+<commit
+   revision="3699">
+<author>xzhu15</author>
+<date>2015-03-08T06:04:15.947163Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tools/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="3699">
+<author>xzhu15</author>
+<date>2015-03-08T06:04:15.947163Z</date>
+</commit>
+</entry>
+</list>
+</lists>

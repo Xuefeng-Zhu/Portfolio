@@ -1,0 +1,3190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="4181">
+<author>xzhu15</author>
+<date>2015-03-13T21:16:35.111603Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/map_data.json</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/City.py</path>
+</paths>
+<msg>after demo</msg>
+</logentry>
+<logentry
+   revision="3925">
+<author>xzhu15</author>
+<date>2015-03-12T04:51:04.072331Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>Fix bug</msg>
+</logentry>
+<logentry
+   revision="3921">
+<author>xzhu15</author>
+<date>2015-03-12T04:29:42.308357Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/DataManager.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/tests/test_data_manager.py</path>
+</paths>
+<msg>Fix bug</msg>
+</logentry>
+<logentry
+   revision="3891">
+<author>xzhu15</author>
+<date>2015-03-11T21:25:09.980728Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment2.1/cmi_hub.json"
+   copyfrom-rev="3743">/xzhu15/Assignment2.1/tests/cmi_hub.json</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/tests/test_cmd_interface.py</path>
+</paths>
+<msg>add more test for cmd_interface.py</msg>
+</logentry>
+<logentry
+   revision="3889">
+<author>xzhu15</author>
+<date>2015-03-11T20:56:45.859798Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/tests/test_data_manager.py</path>
+</paths>
+<msg>add more test to data manager</msg>
+</logentry>
+<logentry
+   revision="3882">
+<author>xzhu15</author>
+<date>2015-03-11T20:03:32.312599Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/tests/test_air_graph.py</path>
+</paths>
+<msg>add more test to air graph</msg>
+</logentry>
+<logentry
+   revision="3881">
+<author>xzhu15</author>
+<date>2015-03-11T19:54:11.762709Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/tests/test_air_graph.py</path>
+</paths>
+<msg>add test to air graph</msg>
+</logentry>
+<logentry
+   revision="3795">
+<author>xzhu15</author>
+<date>2015-03-11T00:17:09.917592Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/tests/test_data_manager.py</path>
+</paths>
+<msg>add edit route and fix a test</msg>
+</logentry>
+<logentry
+   revision="3743">
+<author>xzhu15</author>
+<date>2015-03-09T05:40:28.948190Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/cmi_hub.json</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>Part V : Enhancing the system to accommodate CSAir's expansion</msg>
+</logentry>
+<logentry
+   revision="3731">
+<author>xzhu15</author>
+<date>2015-03-09T02:13:40.714503Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>Part IV : Finding the shortest route between two cities</msg>
+</logentry>
+<logentry
+   revision="3717">
+<author>xzhu15</author>
+<date>2015-03-09T00:16:59.856010Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>be able to get information about a route</msg>
+</logentry>
+<logentry
+   revision="3714">
+<author>xzhu15</author>
+<date>2015-03-08T21:42:27.457888Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>be able to save json data</msg>
+</logentry>
+<logentry
+   revision="3709">
+<author>xzhu15</author>
+<date>2015-03-08T20:47:09.684482Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/DataManager.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/tests/map_data.json</path>
+</paths>
+<msg>be able to edit a city
+</msg>
+</logentry>
+<logentry
+   revision="3708">
+<author>xzhu15</author>
+<date>2015-03-08T20:11:52.089774Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>be able to add a route
+</msg>
+</logentry>
+<logentry
+   revision="3705">
+<author>xzhu15</author>
+<date>2015-03-08T19:35:41.422696Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>be able to add a city
+</msg>
+</logentry>
+<logentry
+   revision="3701">
+<author>xzhu15</author>
+<date>2015-03-08T16:03:28.435149Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>add comments</msg>
+</logentry>
+<logentry
+   revision="3700">
+<author>xzhu15</author>
+<date>2015-03-08T15:55:33.149467Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/module/DataManager.py</path>
+</paths>
+<msg>Be able to remove city</msg>
+</logentry>
+<logentry
+   revision="3699">
+<author>xzhu15</author>
+<date>2015-03-08T06:04:15.947163Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.1/map_data.json</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1/tools</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/tools/directed_graph_concerter.py</path>
+<path
+   copyfrom-path="/xzhu15/Assignment2.1/map_data.json"
+   copyfrom-rev="3697"
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/tools/map_data.json</path>
+</paths>
+<msg>add json data converter</msg>
+</logentry>
+<logentry
+   revision="3698">
+<author>xzhu15</author>
+<date>2015-03-08T05:55:06.754787Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.1/cmd_interface.py</path>
+</paths>
+<msg>add edit city interface</msg>
+</logentry>
+<logentry
+   revision="3686">
+<author>xzhu15</author>
+<date>2015-03-08T02:01:20.570392Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment2.1</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment2.1/.idea</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/assignment2.iml</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/encodings.xml</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1/.idea/scopes</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/scopes/scope_settings.xml</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/map_data.json</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1/module</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/DataManager.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/Route.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment2.1/tests</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/tests/map_data.json</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/test_air_graph.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/test_data.json</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/tests/test_data_manager.py</path>
+</paths>
+<msg>assginment 2.1</msg>
+</logentry>
+<logentry
+   revision="3685">
+<author>xzhu15</author>
+<date>2015-03-08T02:00:13.457908Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/xzhu15/Assignment2.1</path>
+</paths>
+<msg>remove assginement2.1</msg>
+</logentry>
+<logentry
+   revision="3684">
+<author>xzhu15</author>
+<date>2015-03-08T01:54:44.880708Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.DS_Store</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1/.idea</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/.name</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/assignment2.iml</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/encodings.xml</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment2.1/.idea/scopes</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/scopes/scope_settings.xml</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/cmd_interface.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/map_data.json</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1/module</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/AirGraph.pyc</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/City.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/module/City.pyc</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/DataManager.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/module/DataManager.pyc</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/module/Route.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/module/Route.pyc</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/module/__init__.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/module/__init__.pyc</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.1/tests</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/map_data.json</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/test_air_graph.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/test_air_graph.pyc</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/test_data.json</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.1/tests/test_data_manager.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.1/tests/test_data_manager.pyc</path>
+</paths>
+<msg>assginment 2.1</msg>
+</logentry>
+<logentry
+   revision="3672">
+<author>xzhu15</author>
+<date>2015-03-06T23:05:48.836371Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/DataManager.py</path>
+</paths>
+<msg>improve print result</msg>
+</logentry>
+<logentry
+   revision="3619">
+<author>xzhu15</author>
+<date>2015-03-06T18:23:11.723048Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/xzhu15/Assignment2.0/test</path>
+<path
+   action="A"
+   kind="dir"
+   copyfrom-path="/xzhu15/Assignment2.0/test"
+   copyfrom-rev="3571">/xzhu15/Assignment2.0/tests</path>
+<path
+   copyfrom-path="/xzhu15/Assignment2.0/test/test_air_graph.py"
+   copyfrom-rev="3618"
+   action="R"
+   kind="file">/xzhu15/Assignment2.0/tests/test_air_graph.py</path>
+<path
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment2.0/test/test_data_manager.py"
+   copyfrom-rev="3618"
+   action="A">/xzhu15/Assignment2.0/tests/test_data_manager.py</path>
+</paths>
+<msg>change the test folder to tests</msg>
+</logentry>
+<logentry
+   revision="3618">
+<author>xzhu15</author>
+<date>2015-03-06T18:11:04.878619Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/test/test_air_graph.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.0/test/test_data_manager.py</path>
+</paths>
+<msg>add data manager test</msg>
+</logentry>
+<logentry
+   revision="3575">
+<author>xzhu15</author>
+<date>2015-03-06T07:51:41.960669Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.0/cmd_interface.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.0/module/City.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/DataManager.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.0/module/Route.py</path>
+</paths>
+<msg>add comments</msg>
+</logentry>
+<logentry
+   revision="3571">
+<author>xzhu15</author>
+<date>2015-03-06T07:16:01.331661Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.0/test</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment2.0/map_data.json"
+   copyfrom-rev="3345">/xzhu15/Assignment2.0/test/map_data.json</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.0/test/test_air_graph.py</path>
+<path
+   copyfrom-path="/xzhu15/Assignment2.0/map_data.json"
+   copyfrom-rev="3345"
+   action="A"
+   kind="file">/xzhu15/Assignment2.0/test/test_data.json</path>
+</paths>
+<msg>add test code for air graph</msg>
+</logentry>
+<logentry
+   revision="3549">
+<author>xzhu15</author>
+<date>2015-03-06T02:34:11.609439Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+</paths>
+<msg>fix bug</msg>
+</logentry>
+<logentry
+   revision="3541">
+<author>xzhu15</author>
+<date>2015-03-06T02:04:19.262157Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.0/module/DataManager.py</path>
+</paths>
+<msg>change print message</msg>
+</logentry>
+<logentry
+   revision="3373">
+<author>xzhu15</author>
+<date>2015-03-04T23:00:41.090432Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/cmd_interface.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/City.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/DataManager.py</path>
+</paths>
+<msg>finish part 3 and part4</msg>
+</logentry>
+<logentry
+   revision="3345">
+<author>xzhu15</author>
+<date>2015-03-04T20:37:57.369277Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.0/cmd_interface.py</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment2.0/module/map_data.json"
+   copyfrom-rev="3330">/xzhu15/Assignment2.0/map_data.json</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment2.0/module/City.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.0/module/DataManager.py</path>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment2.0/module/map_data.json</path>
+</paths>
+<msg>print list of city and specific information about a city</msg>
+</logentry>
+<logentry
+   revision="3331">
+<author>xzhu15</author>
+<date>2015-03-04T17:53:12.754500Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.0/module/AirGraph.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.0/module/City.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment2.0/module/Route.py</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment2.0/module/__init__.py</path>
+</paths>
+<msg>add graph module</msg>
+</logentry>
+<logentry
+   revision="3330">
+<author>xzhu15</author>
+<date>2015-03-04T17:22:57.466240Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.0/module</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.0/module/__init__.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment2.0/module/map_data.json</path>
+</paths>
+<msg>add data</msg>
+</logentry>
+<logentry
+   revision="3329">
+<author>xzhu15</author>
+<date>2015-03-04T17:18:36.293524Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment2.0</path>
+</paths>
+<msg>add Assignment2.0</msg>
+</logentry>
+<logentry
+   revision="3035">
+<author>xzhu15</author>
+<date>2015-02-27T19:32:35.920151Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/Manual Test Plan.docx</path>
+</paths>
+<msg>add way to run the game to test manual</msg>
+</logentry>
+<logentry
+   revision="3031">
+<author>xzhu15</author>
+<date>2015-02-27T19:28:03.891917Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+</paths>
+<msg>fix a bug when performing undo</msg>
+</logentry>
+<logentry
+   revision="2719">
+<author>xzhu15</author>
+<date>2015-02-25T14:01:35.768493Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/Manual Test Plan.docx</path>
+</paths>
+<msg>update the manual test plan</msg>
+</logentry>
+<logentry
+   revision="2718">
+<author>xzhu15</author>
+<date>2015-02-25T13:31:18.079193Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/Manual Test Plan.docx</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+</paths>
+<msg>if a color issue when performing undo
+</msg>
+</logentry>
+<logentry
+   revision="2709">
+<author>xzhu15</author>
+<date>2015-02-25T09:50:18.032969Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/GameManagerTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/PlayerTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/PieceTest.java</path>
+</paths>
+<msg>add more test</msg>
+</logentry>
+<logentry
+   revision="2623">
+<author>xzhu15</author>
+<date>2015-02-24T22:58:27.986188Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+</paths>
+<msg>add comments to GameStatPanel
+</msg>
+</logentry>
+<logentry
+   revision="2621">
+<author>xzhu15</author>
+<date>2015-02-24T22:53:09.582811Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+</paths>
+<msg>add comments to GameControlPanel.java</msg>
+</logentry>
+<logentry
+   revision="2620">
+<author>xzhu15</author>
+<date>2015-02-24T22:50:47.585442Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+</paths>
+<msg>add comments to ChessGameFrame.java</msg>
+</logentry>
+<logentry
+   revision="2619">
+<author>xzhu15</author>
+<date>2015-02-24T22:36:38.326955Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+</paths>
+<msg>reformat</msg>
+</logentry>
+<logentry
+   revision="2617">
+<author>xzhu15</author>
+<date>2015-02-24T22:23:29.577116Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/ChessBoardTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/GameManagerTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/PlayerTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/BishopTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/FerzTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/KnightTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/NightriderTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/PawnTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/PieceTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/QueenTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/RookTest.java</path>
+</paths>
+<msg>reformat test code</msg>
+</logentry>
+<logentry
+   revision="2612">
+<author>xzhu15</author>
+<date>2015-02-24T22:17:30.126971Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/board/Chessboard.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/board/Location.java</path>
+</paths>
+<msg>reformat code</msg>
+</logentry>
+<logentry
+   revision="2610">
+<author>xzhu15</author>
+<date>2015-02-24T22:15:48.687539Z</date>
+<paths>
+<path
+   action="D"
+   kind="file">/xzhu15/Assignment1.2/src/management/GameLoop.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/Movement.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/Player.java</path>
+</paths>
+<msg>remove gameloop.java</msg>
+</logentry>
+<logentry
+   revision="2609">
+<author>xzhu15</author>
+<date>2015-02-24T22:12:51.881925Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Ferz.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/King.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Nightrider.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Queen.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Rook.java</path>
+</paths>
+<msg>reformat the code</msg>
+</logentry>
+<logentry
+   revision="2608">
+<author>xzhu15</author>
+<date>2015-02-24T22:09:53.025767Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+</paths>
+<msg>add comments to pieces</msg>
+</logentry>
+<logentry
+   revision="2573">
+<author>xzhu15</author>
+<date>2015-02-24T07:20:48.565407Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+</paths>
+<msg>add message for invalid movement</msg>
+</logentry>
+<logentry
+   revision="2563">
+<author>xzhu15</author>
+<date>2015-02-24T06:52:58.075011Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Ferz.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Nightrider.java</path>
+</paths>
+<msg>add custome game</msg>
+</logentry>
+<logentry
+   revision="2559">
+<author>xzhu15</author>
+<date>2015-02-24T06:26:52.304302Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+</paths>
+<msg>be able to start a new game</msg>
+</logentry>
+<logentry
+   revision="2548">
+<author>xzhu15</author>
+<date>2015-02-24T03:42:00.620278Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+</paths>
+<msg>the current player panel will be reset after game restart</msg>
+</logentry>
+<logentry
+   revision="2547">
+<author>xzhu15</author>
+<date>2015-02-24T03:36:04.843376Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+</paths>
+<msg>be able to forfeit</msg>
+</logentry>
+<logentry
+   revision="2545">
+<author>xzhu15</author>
+<date>2015-02-24T03:00:35.840918Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/Player.java</path>
+</paths>
+<msg>add player name and score</msg>
+</logentry>
+<logentry
+   revision="2504">
+<author>xzhu15</author>
+<date>2015-02-23T06:31:45.765253Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/Player.java</path>
+</paths>
+<msg>be able to restart the game</msg>
+</logentry>
+<logentry
+   revision="2490">
+<author>xzhu15</author>
+<date>2015-02-23T04:28:22.428626Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+</paths>
+<msg>add undo action</msg>
+</logentry>
+<logentry
+   revision="2487">
+<author>xzhu15</author>
+<date>2015-02-23T04:08:54.271673Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.2/src/board/ChessBoard.java</path>
+<path
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.2/src/board/ChessBoard.java"
+   copyfrom-rev="2407"
+   action="A">/xzhu15/Assignment1.2/src/board/Chessboard.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/Player.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/ChessBoardTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/PlayerTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/FerzTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/KnightTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/NightriderTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/PawnTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/PieceTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/QueenTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/test/pieces/RookTest.java</path>
+</paths>
+<msg>do some refactor</msg>
+</logentry>
+<logentry
+   revision="2484">
+<author>xzhu15</author>
+<date>2015-02-23T03:57:25.919355Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+</paths>
+<msg>fix bugs with checkmate and stalemate</msg>
+</logentry>
+<logentry
+   revision="2476">
+<author>xzhu15</author>
+<date>2015-02-23T02:39:36.369776Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/management/Player.java</path>
+</paths>
+<msg>be able to detect checkmate and stalemate</msg>
+</logentry>
+<logentry
+   revision="2475">
+<author>xzhu15</author>
+<date>2015-02-23T02:39:15.053264Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+</paths>
+<msg>fix out boundary bug</msg>
+</logentry>
+<logentry
+   revision="2419">
+<author>xzhu15</author>
+<date>2015-02-22T05:22:24.580671Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/management/Movement.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+</paths>
+<msg>add movement and undo</msg>
+</logentry>
+<logentry
+   revision="2413">
+<author>xzhu15</author>
+<date>2015-02-22T03:33:07.216362Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+</paths>
+<msg>be able to show available locations</msg>
+</logentry>
+<logentry
+   revision="2410">
+<author>xzhu15</author>
+<date>2015-02-22T02:58:42.594992Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+</paths>
+<msg>be able to  select piece</msg>
+</logentry>
+<logentry
+   revision="2407">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:47.360368Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/.classpath</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/.project</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.2/.settings</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/Doxyfile</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/Manual Test Plan.docx</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.2/res</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.2/res/black</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/res/black/bishop.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/res/black/king.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/res/black/knight.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/res/black/pawn.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/res/black/queen.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/res/black/rook.png</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.2/res/white</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/res/white/bishop.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/res/white/king.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/res/white/knight.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/res/white/pawn.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/res/white/queen.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/res/white/rook.png</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.2/src</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.2/src/board</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/board/ChessBoard.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/board/Location.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.2/src/gui</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessBoardPanel.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/gui/GameControlPanel.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/gui/GameStatPanel.java</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.2/src/management</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/management/GameLoop.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/management/Player.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.2/src/pieces</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/pieces/Ferz.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/src/pieces/Nightrider.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Piece.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/src/pieces/Rook.java</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.2/test</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/ChessBoardTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/test/GameManagerTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/PlayerTest.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.2/test/pieces</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/test/pieces/BishopTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/FerzTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/test/pieces/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.2/test/pieces/KnightTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/NightriderTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.2/test/pieces/RookTest.java</path>
+</paths>
+<msg>add Assignment 1.2 initial</msg>
+</logentry>
+<logentry
+   revision="2406">
+<author>xzhu15</author>
+<date>2015-02-22T02:24:10.967993Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.2</path>
+</paths>
+<msg>Share project "Assignment1.2" into "https://subversion.ews.illinois.edu/svn/sp15-cs242/xzhu15"</msg>
+</logentry>
+<logentry
+   revision="2291">
+<author>xzhu15</author>
+<date>2015-02-20T20:42:08.618491Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/Manual Test Plan.docx</path>
+</paths>
+<msg>update manual test plan</msg>
+</logentry>
+<logentry
+   revision="2289">
+<author>xzhu15</author>
+<date>2015-02-20T20:38:33.447738Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/gui/ChessGameFrame.java</path>
+</paths>
+<msg>add one more GUI test case </msg>
+</logentry>
+<logentry
+   revision="2133">
+<author>xzhu15</author>
+<date>2015-02-20T03:47:13.340031Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.1/.checkstyle</path>
+</paths>
+<msg>delete checkstyle</msg>
+</logentry>
+<logentry
+   revision="2131">
+<author>xzhu15</author>
+<date>2015-02-20T03:42:36.953740Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/Manual Test Plan.docx</path>
+</paths>
+<msg>add manual test plan</msg>
+</logentry>
+<logentry
+   revision="2129">
+<author>xzhu15</author>
+<date>2015-02-20T03:31:25.400146Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/test/GameManagerTest.java</path>
+</paths>
+<msg>fix a issue with gui and test</msg>
+</logentry>
+<logentry
+   revision="2119">
+<author>xzhu15</author>
+<date>2015-02-20T02:23:16.208943Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/Doxyfile</path>
+</paths>
+<msg>add Doxyfile</msg>
+</logentry>
+<logentry
+   revision="2108">
+<author>xzhu15</author>
+<date>2015-02-20T01:43:12.238518Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/pieces/FerzTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/pieces/NightriderTest.java</path>
+</paths>
+<msg>add test case for custom pieces</msg>
+</logentry>
+<logentry
+   revision="2098">
+<author>xzhu15</author>
+<date>2015-02-20T01:22:18.191466Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Ferz.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/Nightrider.java</path>
+</paths>
+<msg>add Custom Chess Pieces Frez and Nightrider </msg>
+</logentry>
+<logentry
+   revision="2095">
+<author>xzhu15</author>
+<date>2015-02-20T01:16:42.468639Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/gui/ChessBoardPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/gui/ChessGameFrame.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/gui/GameControlPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/gui/GameStatPanel.java</path>
+</paths>
+<msg>add comments to gui class</msg>
+</logentry>
+<logentry
+   revision="2040">
+<author>xzhu15</author>
+<date>2015-02-19T23:10:39.776017Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Piece.java</path>
+</paths>
+<msg>add more comments to Piece.java</msg>
+</logentry>
+<logentry
+   revision="2038">
+<author>xzhu15</author>
+<date>2015-02-19T23:09:28.621724Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/board/Location.java</path>
+</paths>
+<msg>add more comments to Location</msg>
+</logentry>
+<logentry
+   revision="2037">
+<author>xzhu15</author>
+<date>2015-02-19T23:09:05.687543Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/management/Player.java</path>
+</paths>
+<msg>add more comments to Player.java and GameManager.java</msg>
+</logentry>
+<logentry
+   revision="1818">
+<author>xzhu15</author>
+<date>2015-02-19T03:15:09.302304Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/GameManagerTest.java</path>
+</paths>
+<msg>fix game manager updateGameStat test </msg>
+</logentry>
+<logentry
+   revision="1817">
+<author>xzhu15</author>
+<date>2015-02-19T03:13:59.668291Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/gui/ChessBoardPanel.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/gui/ChessGameFrame.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Knight.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Rook.java</path>
+</paths>
+<msg>be able to show each piece correctly</msg>
+</logentry>
+<logentry
+   revision="1814">
+<author>xzhu15</author>
+<date>2015-02-19T02:56:37.208387Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/pieces/Queen.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Rook.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/test/ChessBoardTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/test/GameManagerTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/PlayerTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/KnightTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/test/pieces/PawnTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/PieceTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/QueenTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/test/pieces/RookTest.java</path>
+</paths>
+<msg>add initPiece and do some refactors</msg>
+</logentry>
+<logentry
+   revision="1800">
+<author>xzhu15</author>
+<date>2015-02-19T01:42:37.935458Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/src/gui/GameControlPanel.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/gui/GameStatPanel.java</path>
+</paths>
+<msg>add control panel and stat panel</msg>
+</logentry>
+<logentry
+   revision="1793">
+<author>xzhu15</author>
+<date>2015-02-19T01:17:59.639489Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/.checkstyle</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/res/black/bishop.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/black/king.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/black/knight.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/black/pawn.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/black/queen.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/black/rook.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/white/bishop.png</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/res/white/king.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/white/knight.png</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.1/res/white/pawn.png</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/res/white/queen.png</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/res/white/rook.png</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.1/src/board/ChessBoard.java</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/src/gui</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/gui/ChessBoardPanel.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/gui/ChessGameFrame.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/gui/GameControlPanel.java</path>
+</paths>
+<msg>add resources and be able to show chessboard gui</msg>
+</logentry>
+<logentry
+   revision="1774">
+<author>xzhu15</author>
+<date>2015-02-18T21:18:19.292156Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/res</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/res/black</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/black/bishop.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/black/king.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/black/knight.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/black/pawn.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/black/queen.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/black/rook.png</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/res/white</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/white/bishop.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/white/king.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/white/knight.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/white/pawn.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/white/queen.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/white/rook.png</path>
+</paths>
+<msg>add chess icon</msg>
+</logentry>
+<logentry
+   revision="1773">
+<author>xzhu15</author>
+<date>2015-02-18T21:15:49.471242Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/.classpath</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/.project</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/.settings</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/src</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/src/board</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/board/ChessBoard.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/board/Location.java</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/src/management</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/management/GameLoop.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/management/Player.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/src/pieces</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Piece.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/test</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/ChessBoardTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/GameManagerTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/PlayerTest.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/test/pieces</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/pieces/KingTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/KnightTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/RookTest.java</path>
+</paths>
+<msg>add assignment 1.1</msg>
+</logentry>
+<logentry
+   revision="1772">
+<author>xzhu15</author>
+<date>2015-02-18T21:15:29.315790Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1</path>
+</paths>
+<msg>Share project "Assignment1.1" into "https://subversion.ews.illinois.edu/svn/sp15-cs242/xzhu15"</msg>
+</logentry>
+<logentry
+   revision="1771">
+<author>xzhu15</author>
+<date>2015-02-18T21:11:47.640250Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/xzhu15/Assignment1.1</path>
+</paths>
+<msg>delete a1.1</msg>
+</logentry>
+<logentry
+   revision="1768">
+<author>xzhu15</author>
+<date>2015-02-18T20:46:57.817940Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/.project</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/res</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/bishop.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/king.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/knight.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/pawn.png</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/res/queen.png</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/res/rook.png</path>
+</paths>
+<msg>add chess icon
+</msg>
+</logentry>
+<logentry
+   revision="1767">
+<author>xzhu15</author>
+<date>2015-02-18T20:38:33.498020Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/src</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/src/board</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/board/ChessBoard.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/board/Location.java</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.1/src/management</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/management/GameLoop.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/management/Player.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/src/pieces</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/King.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/src/pieces/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/test</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/ChessBoardTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/GameManagerTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/PlayerTest.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.1/test/pieces</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/pieces/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/pieces/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.1/test/pieces/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.1/test/pieces/RookTest.java</path>
+</paths>
+<msg>init assginemnt 1.1</msg>
+</logentry>
+<logentry
+   revision="1280">
+<author>xzhu15</author>
+<date>2015-02-13T20:17:03.951782Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/src/management/GameLoop.java</path>
+</paths>
+<msg>gameloop</msg>
+</logentry>
+<logentry
+   revision="1275">
+<author>xzhu15</author>
+<date>2015-02-13T19:57:30.233758Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+</paths>
+<msg>remove extra comments</msg>
+</logentry>
+<logentry
+   revision="1244">
+<author>xzhu15</author>
+<date>2015-02-13T18:36:56.480237Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/PieceTest.java</path>
+</paths>
+<msg>add comment to piece test</msg>
+</logentry>
+<logentry
+   revision="1242">
+<author>xzhu15</author>
+<date>2015-02-13T18:35:12.314682Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/KnightTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/PawnTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/pieces/QueenTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/RookTest.java</path>
+</paths>
+<msg>add comment to pawn and update others comments
+</msg>
+</logentry>
+<logentry
+   revision="1240">
+<author>xzhu15</author>
+<date>2015-02-13T18:32:07.433068Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/pieces/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/KnightTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/QueenTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/pieces/RookTest.java</path>
+</paths>
+<msg>add comment to pieces test</msg>
+</logentry>
+<logentry
+   revision="1238">
+<author>xzhu15</author>
+<date>2015-02-13T18:24:31.241009Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/GameManagerTest.java</path>
+</paths>
+<msg>add coment to gamemanager test</msg>
+</logentry>
+<logentry
+   revision="1237">
+<author>xzhu15</author>
+<date>2015-02-13T18:23:17.718420Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/ChessBoardTest.java</path>
+</paths>
+<msg>add comments to chessboard</msg>
+</logentry>
+<logentry
+   revision="1231">
+<author>xzhu15</author>
+<date>2015-02-13T17:54:17.342620Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/test/PlayerTest.java</path>
+</paths>
+<msg>add playerTest</msg>
+</logentry>
+<logentry
+   revision="1187">
+<author>xzhu15</author>
+<date>2015-02-13T16:07:10.259510Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/management/GameManager.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/management/Player.java</path>
+</paths>
+<msg>fix mistake for updateStat</msg>
+</logentry>
+<logentry
+   revision="1182">
+<author>xzhu15</author>
+<date>2015-02-13T15:29:58.695587Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/management/Player.java</path>
+</paths>
+<msg>add stalemate</msg>
+</logentry>
+<logentry
+   revision="1147">
+<author>xzhu15</author>
+<date>2015-02-13T07:42:26.423096Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Rook.java</path>
+</paths>
+<msg>add comments to Piece and update comments on other pieces Class</msg>
+</logentry>
+<logentry
+   revision="1143">
+<author>xzhu15</author>
+<date>2015-02-13T07:27:33.599009Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Queen.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Rook.java</path>
+</paths>
+<msg>add comments to bishop, king, knight, pawn, queen, rock</msg>
+</logentry>
+<logentry
+   revision="1141">
+<author>xzhu15</author>
+<date>2015-02-13T07:19:04.215638Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/management/Player.java</path>
+</paths>
+<msg>add comment to player</msg>
+</logentry>
+<logentry
+   revision="1139">
+<author>xzhu15</author>
+<date>2015-02-13T07:12:26.195504Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/management/GameManager.java</path>
+</paths>
+<msg>add comment to GameManager
+</msg>
+</logentry>
+<logentry
+   revision="1137">
+<author>xzhu15</author>
+<date>2015-02-13T07:05:55.390791Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/Location.java</path>
+</paths>
+<msg>add comment to chessboard
+</msg>
+</logentry>
+<logentry
+   revision="1135">
+<author>xzhu15</author>
+<date>2015-02-13T06:50:13.237371Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/Location.java</path>
+</paths>
+<msg>add comment to Location</msg>
+</logentry>
+<logentry
+   revision="1134">
+<author>xzhu15</author>
+<date>2015-02-13T06:35:17.650802Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.0/test/BishopTest.java</path>
+<path
+   action="D"
+   kind="file">/xzhu15/Assignment1.0/test/KingTest.java</path>
+<path
+   action="D"
+   kind="file">/xzhu15/Assignment1.0/test/KnightTest.java</path>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.0/test/PawnTest.java</path>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.0/test/PieceTest.java</path>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.0/test/QueenTest.java</path>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.0/test/RookTest.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/test/pieces</path>
+<path
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.0/test/BishopTest.java"
+   copyfrom-rev="1133"
+   action="A">/xzhu15/Assignment1.0/test/pieces/BishopTest.java</path>
+<path
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.0/test/KingTest.java"
+   copyfrom-rev="1133"
+   action="A">/xzhu15/Assignment1.0/test/pieces/KingTest.java</path>
+<path
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.0/test/KnightTest.java"
+   copyfrom-rev="1133"
+   action="A">/xzhu15/Assignment1.0/test/pieces/KnightTest.java</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.0/test/PawnTest.java"
+   copyfrom-rev="1133">/xzhu15/Assignment1.0/test/pieces/PawnTest.java</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.0/test/PieceTest.java"
+   copyfrom-rev="1133">/xzhu15/Assignment1.0/test/pieces/PieceTest.java</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/xzhu15/Assignment1.0/test/QueenTest.java"
+   copyfrom-rev="1133">/xzhu15/Assignment1.0/test/pieces/QueenTest.java</path>
+<path
+   copyfrom-path="/xzhu15/Assignment1.0/test/RookTest.java"
+   copyfrom-rev="1133"
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/test/pieces/RookTest.java</path>
+</paths>
+<msg>reorganize test structure</msg>
+</logentry>
+<logentry
+   revision="1133">
+<author>xzhu15</author>
+<date>2015-02-13T06:33:36.610834Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/BishopTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/ChessBoardTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/test/GameManagerTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/KingTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/KnightTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/PawnTest.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/PieceTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/QueenTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/RookTest.java</path>
+</paths>
+<msg>add gamemanager test</msg>
+</logentry>
+<logentry
+   revision="1130">
+<author>xzhu15</author>
+<date>2015-02-13T06:21:40.452762Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/ChessBoardTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/test/KingTest.java</path>
+</paths>
+<msg>add getpath test</msg>
+</logentry>
+<logentry
+   revision="1129">
+<author>xzhu15</author>
+<date>2015-02-13T06:21:26.621696Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/Location.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/management/Player.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+</paths>
+<msg>update loation system and fix getpath</msg>
+</logentry>
+<logentry
+   revision="1125">
+<author>xzhu15</author>
+<date>2015-02-13T05:38:03.812704Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/test/PawnTest.java</path>
+</paths>
+<msg>add pawn test</msg>
+</logentry>
+<logentry
+   revision="1123">
+<author>xzhu15</author>
+<date>2015-02-13T05:30:42.479983Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/test/KnightTest.java</path>
+</paths>
+<msg>add knight test</msg>
+</logentry>
+<logentry
+   revision="1114">
+<author>xzhu15</author>
+<date>2015-02-13T04:35:11.330733Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/test/QueenTest.java</path>
+</paths>
+<msg>add queentest
+</msg>
+</logentry>
+<logentry
+   revision="1113">
+<author>xzhu15</author>
+<date>2015-02-13T04:31:18.691995Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Queen.java</path>
+</paths>
+<msg>fix queen directions error</msg>
+</logentry>
+<logentry
+   revision="1112">
+<author>xzhu15</author>
+<date>2015-02-13T04:20:52.164734Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/Location.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/management/GameManager.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/management/Player.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/RookTest.java</path>
+</paths>
+<msg>add ischeckmate
+</msg>
+</logentry>
+<logentry
+   revision="1031">
+<author>xzhu15</author>
+<date>2015-02-12T19:18:29.485170Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/PieceTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/RookTest.java</path>
+</paths>
+<msg>change getavailableLocations to updateavailableLocations
+</msg>
+</logentry>
+<logentry
+   revision="1023">
+<author>xzhu15</author>
+<date>2015-02-12T18:23:24.526826Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/King.java</path>
+</paths>
+<msg>add king getavailableLocation
+</msg>
+</logentry>
+<logentry
+   revision="1022">
+<author>xzhu15</author>
+<date>2015-02-12T18:22:58.966901Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/management/Player.java</path>
+</paths>
+<msg>add a getter function for piece
+</msg>
+</logentry>
+<logentry
+   revision="1021">
+<author>xzhu15</author>
+<date>2015-02-12T18:19:02.130510Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/ChessBoardTest.java</path>
+</paths>
+<msg>add validateLocation test
+</msg>
+</logentry>
+<logentry
+   revision="1020">
+<author>xzhu15</author>
+<date>2015-02-12T18:10:35.408381Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/test/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/ChessBoardTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/PieceTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/test/RookTest.java</path>
+</paths>
+<msg>update tests</msg>
+</logentry>
+<logentry
+   revision="1019">
+<author>xzhu15</author>
+<date>2015-02-12T18:07:25.092646Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+</paths>
+<msg>remove captured piece from player pieces</msg>
+</logentry>
+<logentry
+   revision="1018">
+<author>xzhu15</author>
+<date>2015-02-12T18:06:32.604408Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/management/Player.java</path>
+</paths>
+<msg>fix a bug in player</msg>
+</logentry>
+<logentry
+   revision="1016">
+<author>xzhu15</author>
+<date>2015-02-12T18:00:40.855212Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/pieces/King.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Queen.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Rook.java</path>
+</paths>
+<msg>update constructors
+</msg>
+</logentry>
+<logentry
+   revision="1015">
+<author>xzhu15</author>
+<date>2015-02-12T18:00:18.524841Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/management/GameManager.java</path>
+</paths>
+<msg>add gamemanager</msg>
+</logentry>
+<logentry
+   revision="1012">
+<author>xzhu15</author>
+<date>2015-02-12T17:37:46.269798Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/src/management</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/src/management/Player.java</path>
+</paths>
+<msg>add player
+</msg>
+</logentry>
+<logentry
+   revision="976">
+<author>xzhu15</author>
+<date>2015-02-12T09:03:34.989637Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/test/PieceTest.java</path>
+</paths>
+<msg>add piece test</msg>
+</logentry>
+<logentry
+   revision="975">
+<author>xzhu15</author>
+<date>2015-02-12T09:03:21.775518Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/Location.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+</paths>
+<msg>add location equals</msg>
+</logentry>
+<logentry
+   revision="973">
+<author>xzhu15</author>
+<date>2015-02-12T08:42:44.999922Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+</paths>
+<msg>add moveto to piece
+</msg>
+</logentry>
+<logentry
+   revision="887">
+<author>xzhu15</author>
+<date>2015-02-12T02:17:08.439730Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+</paths>
+<msg>implement pawn available location
+</msg>
+</logentry>
+<logentry
+   revision="882">
+<author>xzhu15</author>
+<date>2015-02-12T01:45:34.643703Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/test/BishopTest.java</path>
+</paths>
+<msg>add bishop test</msg>
+</logentry>
+<logentry
+   revision="876">
+<author>xzhu15</author>
+<date>2015-02-12T00:25:09.782306Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Queen.java</path>
+</paths>
+<msg>add bishop, kngiht, and queen</msg>
+</logentry>
+<logentry
+   revision="868">
+<author>xzhu15</author>
+<date>2015-02-11T22:45:07.072226Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/.classpath</path>
+<path
+   kind="file"
+   action="D">/xzhu15/Assignment1.0/src/board/ChessBoardTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/Location.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/test</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/test/ChessBoardTest.java</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/test/RookTest.java</path>
+</paths>
+<msg>add getavailLocation and test Rook</msg>
+</logentry>
+<logentry
+   revision="794">
+<author>xzhu15</author>
+<date>2015-02-11T07:52:15.953602Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/board/ChessBoardTest.java</path>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+</paths>
+<msg>make change to architecture</msg>
+</logentry>
+<logentry
+   revision="685">
+<author>xzhu15</author>
+<date>2015-02-09T04:15:01.012105Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/board/ChessBoardTest.java</path>
+</paths>
+<msg>add position validator into chessboard</msg>
+</logentry>
+<logentry
+   revision="678">
+<author>xzhu15</author>
+<date>2015-02-09T03:46:43.965975Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/xzhu15/Assignment1.0/.classpath</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/src/board/ChessBoardTest.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   action="D"
+   kind="dir">/xzhu15/Assignment1.0/test</path>
+</paths>
+<msg>add chessboard test</msg>
+</logentry>
+<logentry
+   revision="673">
+<author>xzhu15</author>
+<date>2015-02-09T03:15:29.002917Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.0/src/board</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/src/board/ChessBoard.java</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/board/Location.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/src/pieces</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/src/pieces/Piece.java</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/test</path>
+</paths>
+<msg>add chessboard, location, and piece
+</msg>
+</logentry>
+<logentry
+   revision="670">
+<author>xzhu15</author>
+<date>2015-02-09T02:17:29.178609Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/.classpath</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment1.0/.project</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/.settings</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment1.0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment1.0/src</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="669">
+<author>xzhu15</author>
+<date>2015-02-09T02:09:02.696566Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment1.0</path>
+</paths>
+<msg>add Assignment1.0 folder</msg>
+</logentry>
+<logentry
+   revision="221">
+<author>xzhu15</author>
+<date>2015-02-04T21:57:12.156363Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment0</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/Procfile</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/README.md</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment0/api</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/api/__init__.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/api/friendsAPI.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/api/passwordAPI.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/api/postAPI.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/api/profileAPI.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/api/userAPI.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/api_manual</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/app.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/config.py</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment0/model</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/model/__init__.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/model/friend.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/model/post.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/model/profile.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/model/request.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/model/user.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/requirements.txt</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment0/templates</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/templates/activate_account.html</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/templates/activate_account.txt</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/templates/forget_password.html</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/templates/forget_password.txt</path>
+<path
+   kind="dir"
+   action="A">/xzhu15/Assignment0/test</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/test/__init__.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/test/friends_test.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/test/login_test.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/test/password_test.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/test/profile_test.py</path>
+<path
+   action="A"
+   kind="dir">/xzhu15/Assignment0/util</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/util/__init__.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/util/emails.py</path>
+<path
+   action="A"
+   kind="file">/xzhu15/Assignment0/util/serialize.py</path>
+<path
+   kind="file"
+   action="A">/xzhu15/Assignment0/util/userAuth.py</path>
+</paths>
+<msg>commit assignment0</msg>
+</logentry>
+<logentry
+   revision="168">
+<author>root</author>
+<date>2015-02-04T16:45:19.202141Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/xzhu15</path>
+</paths>
+<msg>created directory xzhu15</msg>
+</logentry>
+</log>
