@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1426658984938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio" />
+    <SUITE FILE_PATH="coverage/Portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1426661055675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio" />
     <SUITE FILE_PATH="coverage/Portfolio$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1426658259907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio" />
     <SUITE FILE_PATH="coverage/Portfolio$parser.coverage" NAME="parser Coverage Results" MODIFIED="1426628293463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio/utils" />
   </component>
@@ -39,10 +39,10 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4061372" vertical-offset="0" max-vertical-offset="554">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6768953" vertical-offset="0" max-vertical-offset="554">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
-                <element signature="e#28#51#0" expanded="true" />
+                <element signature="e#28#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,12 +79,12 @@
         <option value="$PROJECT_DIR$/portfolio/static/css/bootflat.min.css" />
         <option value="$PROJECT_DIR$/portfolio/templates/layout.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/project_detail.html" />
-        <option value="$PROJECT_DIR$/portfolio/app.py" />
         <option value="$PROJECT_DIR$/runserver.py" />
         <option value="$PROJECT_DIR$/portfolio/__init__.py" />
         <option value="$PROJECT_DIR$/portfolio/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/portfolio/app.py" />
       </list>
     </option>
   </component>
@@ -460,7 +460,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="674" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -520,7 +520,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#28#51#0" expanded="true" />
+            <element signature="e#28#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,10 +712,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4061372" vertical-offset="0" max-vertical-offset="554">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.6768953" vertical-offset="0" max-vertical-offset="554">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#28#51#0" expanded="true" />
+            <element signature="e#28#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
