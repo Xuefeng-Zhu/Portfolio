@@ -5759,7 +5759,6 @@ button.close {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1040;
     background-color: #000
 }
 
@@ -9016,7 +9015,7 @@ a.list-group-item-danger.active, a.list-group-item-danger:focus, a.list-group-it
 
 .timeline dl dd {
     position: relative;
-    z-index: 200
+    /*z-index: 200*/
 }
 
 .timeline dl dd .circ {
