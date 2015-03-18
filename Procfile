@@ -1,1 +1,1 @@
-web: gunicorn runserver:app
+web: python portfolio/app.py
