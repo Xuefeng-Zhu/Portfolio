@@ -6,15 +6,17 @@ from portfolio.assets import bundles
 import portfolio.utils.parser as parser
 from portfolio.controllers.project_view import project
 
-app = Flask(__name__)
-app.config["project_dict"] = parser.parse_svn_list()
-app.config["log_dict"] = parser.parse_svn_log()
 
-assets = Environment(app)
-assets.register(bundles)
+def create_app():
+    app = Flask(__name__)
+    app.config["project_dict"] = parser.parse_svn_list()
+    app.config["log_dict"] = parser.parse_svn_log()
 
-app.register_blueprint(project)
+    assets = Environment(app)
+    assets.register(bundles)
 
-app.run(debug=True)
+    app.register_blueprint(project)
+
+    return app
 
 
