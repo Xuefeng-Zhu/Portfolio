@@ -33,31 +33,34 @@
                     <dt>Files</dt>
                     {% for file in project.file_list %}
                         {% if loop.index % 2 == 0 %}
-                            <dd class="pos-right clearfix">
-                                {% else %}
-                            <dd class="pos-left clearfix">
+                            {% set direction = "pos-right" %}
+                            {% set color = "CCD1D9" %}
+                        {% else %}
+                            {% set direction = "pos-left" %}
+                            {% set color = "AAB2BD" %}
                         {% endif %}
-                    <div class="circ"></div>
-                    <div class="time">{{ file.revision }}</div>
-                    <div class="events" style="background-color:#CCD1D9">
-                        <div class="events-body">
-                            <h4 class="events-heading">{{ file.path }}</h4>
+                        <dd class="{{ direction }} clearfix">
+                            <div class="circ"></div>
+                            <div class="time">{{ file.revision }}</div>
+                            <div class="events" style="background-color:#{{ color }}">
+                                <div class="events-body">
+                                    <h4 class="events-heading">{{ file.path }}</h4>
 
-                            <p><b>Size: </b> {{ file.size }}</p>
+                                    <p><b>Size: </b> {{ file.size }}</p>
 
-                            <p><b>Type: </b> {{ file.type }}</p>
+                                    <p><b>Type: </b> {{ file.type }}</p>
 
-                            <p><b>Author: </b> {{ log_dict[file.revision].author }}</p>
+                                    <p><b>Author: </b> {{ log_dict[file.revision].author }}</p>
 
-                            <p><b>Info: </b> {{ log_dict[file.revision].msg }}</p>
+                                    <p><b>Info: </b> {{ log_dict[file.revision].msg }}</p>
 
-                            <p><b>Date: </b> {{ log_dict[file.revision].date }}</p>
-                            <button type="button" class="btn btn-primary pull-right"
-                                    onclick="showModal('{{ file.type }}', '{{ file.path }}')">Show Detail
-                            </button>
-                        </div>
-                    </div>
-                    </dd>
+                                    <p><b>Date: </b> {{ log_dict[file.revision].date }}</p>
+                                    <button type="button" class="btn btn-primary pull-right"
+                                            onclick="showModal('{{ file.type }}', '{{ file.path }}')">Show Detail
+                                    </button>
+                                </div>
+                            </div>
+                        </dd>
                     {% endfor %}
                 </dl>
             </div>
