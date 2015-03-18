@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %} Project | {{ project.title }} {% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-12">
+            <h4>{{ project.title }}</h4>
+
+            <div class="list-group">
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Date</h4>
+
+                    <p class="list-group-item-text">{{ project.date }}</p>
+                </a>
+
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Version</h4>
+
+                    <p class="list-group-item-text">{{ project.revision }}</p>
+                </a>
+
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Summary</h4>
+
+                    <p class="list-group-item-text">{{ log_dict[project.revision].msg }}</p>
+                </a>
+            </div>
+
+            {#File List#}
+            <div class="timeline">
+                <dl>
+                    <dt>Files</dt>
+                    {% for file in project.file_list %}
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">{{ file.revision }}</div>
+                            <div class="events" style="background-color:#CCD1D9">
+                                <div class="events-body">
+                                    <h4 class="events-heading">{{ file.path }}</h4>
+
+                                    <p><b>Size: </b> {{ file.size }}</p>
+                                    <p><b>Type: </b> {{ file.type }}</p>
+                                    <p><b>Author: </b> {{ log_dict[file.revision].author }}</p>
+                                    <p><b>Info: </b> {{ log_dict[file.revision].msg }}</p>
+                                    <p><b>Date: </b> {{ log_dict[file.revision].date }}</p>
+                                </div>
+                            </div>
+                        </dd>
+                    {% endfor %}
+                </dl>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

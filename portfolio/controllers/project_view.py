@@ -11,3 +11,13 @@ def index():
                            log_dict=current_app.config["log_dict"])
 
 
+@project.route("/project/<project_title>")
+def project_detail(project_title):
+    project = current_app.config["project_dict"][project_title]
+    project.file_list.sort(key=lambda file: int(file.revision))
+
+    return render_template("project_detail.html",
+                           project=project,
+                           log_dict=current_app.config["log_dict"])
+
+
