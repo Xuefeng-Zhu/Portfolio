@@ -3,5 +3,36 @@
 {% block title %} Project List {% endblock %}
 
 {% block body %}
-    <p>{{ project_dict["Assignment0"].date }}</p>
+
+    <div class="row">
+        {% for project in project_dict.values() %}
+            <div class="col-md-4">
+                <div class="panel panel-info">
+                    <div class="panel-heading"><h3 class="panel-title">{{ project.title }}</h3></div>
+                    <div class="panel-body">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">Date</h4>
+
+                                <p class="list-group-item-text">{{ project.date }}</p>
+                            </a>
+
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">Version</h4>
+
+                                <p class="list-group-item-text">{{ project.revision }}</p>
+                            </a>
+
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">Summary</h4>
+
+                                <p class="list-group-item-text">{{ log_dict[project.revision].msg }}</p>
+                            </a>
+                        </div>
+                        <a class="btn btn-primary pull-right" href="project/{{ project.title }}">Show Detail</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}

@@ -2,13 +2,14 @@ __author__ = 'Xuefeng Zhu'
 
 import os
 import xmltodict
+from collections import OrderedDict
 from portfolio.models.project import Project
 from portfolio.models.file import File
 from portfolio.models.log import Log
 
 
 def parse_svn_list():
-    project_dict = dict()
+    project_dict = OrderedDict()
     file_path = os.path.join(os.path.dirname(__file__),
                              'data/svn_list.xml')
     with open(file_path) as f:
@@ -29,7 +30,7 @@ def parse_svn_list():
 
 
 def parse_svn_log():
-    log_dict = dict()
+    log_dict = OrderedDict()
     file_path = os.path.join(os.path.dirname(__file__),
                              'data/svn_log.xml')
     with open(file_path) as f:

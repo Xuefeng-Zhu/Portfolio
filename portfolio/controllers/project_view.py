@@ -6,6 +6,8 @@ project = Blueprint("project", __name__)
 
 @project.route("/")
 def index():
-    return render_template("index.html", project_dict=current_app.config["project_dict"])
+    return render_template("index.html",
+                           project_dict=current_app.config["project_dict"],
+                           log_dict=current_app.config["log_dict"])
 
 
