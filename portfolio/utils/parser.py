@@ -9,6 +9,10 @@ from portfolio.models.log import Log
 
 
 def parse_svn_list():
+    """
+    Parse the svn_list.xml file into a projects
+    :return project_dict
+    """
     project_dict = OrderedDict()
     file_path = os.path.join(os.path.dirname(__file__),
                              'data/svn_list.xml')
@@ -30,6 +34,11 @@ def parse_svn_list():
 
 
 def parse_svn_log(project_dict=None):
+    """
+    Parse the svn_log.xml file into a logs
+    :param project_dict: projects used to associate with logs
+    :return: log_dict
+    """
     log_dict = OrderedDict()
     file_path = os.path.join(os.path.dirname(__file__),
                              'data/svn_log.xml')
@@ -46,6 +55,11 @@ def parse_svn_log(project_dict=None):
 
 
 def assign_file_revision(project_dict, log):
+    """
+    Assign revision to the files associated with it
+    :param project_dict:
+    :param log:
+    """
     paths = log["paths"]["path"]
     if not isinstance(paths, list):
         paths = [paths]

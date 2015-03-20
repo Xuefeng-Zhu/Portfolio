@@ -1,4 +1,7 @@
 __author__ = 'Xuefeng Zhu'
+"""
+Define assets bundles used for web pages
+"""
 from flask.ext.assets import Bundle
 
 

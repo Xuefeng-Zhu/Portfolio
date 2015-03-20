@@ -1,5 +1,7 @@
 __author__ = 'Xuefeng Zhu'
-
+"""
+Boostrap the web app
+"""
 from flask import Flask
 from flask.ext.assets import Environment
 from portfolio.assets import bundles
