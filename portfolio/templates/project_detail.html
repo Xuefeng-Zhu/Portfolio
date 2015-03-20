@@ -60,6 +60,44 @@
                                         <button type="button" class="btn btn-primary"
                                                 onclick="showModal('{{ file.type }}', '{{ file.path }}')">View File
                                         </button>
+                                        <button type="button" class="btn btn-info" data-toggle="modal"
+                                                data-target=".file{{ loop.index }}">Show Revision History
+                                        </button>
+
+                                        <div class="modal file{{ loop.index }}" role="dialog">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                                aria-hidden="true">×
+                                                        </button>
+                                                        <h4 class="modal-title">File Browser</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <table class="table table-hover">
+                                                            <thead>
+                                                            <tr>
+                                                                <th>Revision #</th>
+                                                                <th>Author</th>
+                                                                <th>Info</th>
+                                                                <th>Date</th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            {% for revision_n in project.file_dict[file.path] %}
+                                                                <tr>
+                                                                    <th>{{ revision_n }}</th>
+                                                                    <td>{{ log_dict[revision_n].author }}</td>
+                                                                    <td>{{ log_dict[revision_n].msg }}</td>
+                                                                    <td>{{ log_dict[revision_n].date }}</td>
+                                                                </tr>
+                                                            {% endfor %}
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +117,8 @@
                     <button type="button" class="close" data-dismiss="modal"
                             aria-hidden="true">×
                     </button>
-                    <h4 class="modal-title">File Browser</h4></div>
+                    <h4 class="modal-title">File Browser</h4>
+                </div>
                 <div class="modal-body" style="text-align: center">
 
                 </div>

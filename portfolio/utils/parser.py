@@ -24,7 +24,7 @@ def parse_svn_list():
         elif item["@kind"] == "file":
             file = File(item)
             project_name = item["name"].split("/")[0]
-            project_dict[project_name].file_list.append(file)
+            project_dict[project_name].add_file(file)
 
     return project_dict
 
@@ -53,7 +53,8 @@ def assign_file_revision(project_dict, log):
         if item["@kind"] == "file":
             file_path = item["#text"].split("/")
             project = project_dict[file_path[2]]
-            file_revision_list = project.file_dict.setdefault("/".join(file_path[3:]), [])
-            file_revision_list.append(log["@revision"])
+            file_revision_list = project.file_dict.setdefault("/".join(file_path[2:]), [])
+            if log["@revision"] not in file_revision_list:
+                file_revision_list.append(log["@revision"])
 
 

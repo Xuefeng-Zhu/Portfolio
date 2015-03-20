@@ -11,3 +11,7 @@ class Project:
         self.revision = commit_dict["@revision"]
         self.file_list = list()
         self.file_dict = dict()
+
+    def add_file(self, file):
+        self.file_list.append(file)
+        self.file_dict[file.path] = [file.revision]

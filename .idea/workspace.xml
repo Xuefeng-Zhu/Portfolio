@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1426815632196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio" />
+    <SUITE FILE_PATH="coverage/Portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1426818550103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio" />
     <SUITE FILE_PATH="coverage/Portfolio$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1426658259907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio" />
     <SUITE FILE_PATH="coverage/Portfolio$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1426812720370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Portfolio$parser.coverage" NAME="parser Coverage Results" MODIFIED="1426628293463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/portfolio/utils" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/utils/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="975">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="990">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding>
                 <element signature="e#28#37#0" expanded="true" />
               </folding>
@@ -52,21 +52,21 @@
       <file leaf-file-name="project_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/project_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.083333" vertical-offset="697" max-vertical-offset="1665">
-              <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-              <folding />
+            <state vertical-scroll-proportion="-9.083333" vertical-offset="1072" max-vertical-offset="2250">
+              <caret line="86" column="81" selection-start-line="86" selection-start-column="81" selection-end-line="86" selection-end-column="81" />
+              <folding>
+                <element signature="e#6253#6279#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/models/file.py">
+      <file leaf-file-name="svn_log.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/utils/data/svn_log.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49723756" vertical-offset="0" max-vertical-offset="540">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#27#56#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.2829582" vertical-offset="37382" max-vertical-offset="47940">
+              <caret line="2498" column="14" selection-start-line="2498" selection-start-column="14" selection-end-line="2498" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,6 +79,16 @@
               <folding>
                 <element signature="e#28#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/models/project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,11 +116,11 @@
         <option value="$PROJECT_DIR$/runserver.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/portfolio/Procfile" />
-        <option value="$PROJECT_DIR$/portfolio/models/project.py" />
         <option value="$PROJECT_DIR$/portfolio/app.py" />
-        <option value="$PROJECT_DIR$/portfolio/utils/parser.py" />
-        <option value="$PROJECT_DIR$/portfolio/templates/project_detail.html" />
         <option value="$PROJECT_DIR$/portfolio/models/file.py" />
+        <option value="$PROJECT_DIR$/portfolio/models/project.py" />
+        <option value="$PROJECT_DIR$/portfolio/templates/project_detail.html" />
+        <option value="$PROJECT_DIR$/portfolio/utils/parser.py" />
       </list>
     </option>
   </component>
@@ -584,7 +594,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="674" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -598,7 +608,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -793,32 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/utils/data/svn_log.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.27451" vertical-offset="5098" max-vertical-offset="47940">
-          <caret line="351" column="12" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-          <folding>
-            <element signature="e#28#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/models/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49723756" vertical-offset="0" max-vertical-offset="362">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/models/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41436464" vertical-offset="0" max-vertical-offset="362">
@@ -835,10 +819,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/models/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5801105" vertical-offset="60" max-vertical-offset="540">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#27#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="e#28#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/models/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/utils/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="975">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="990">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding>
             <element signature="e#28#37#0" expanded="true" />
           </folding>
@@ -847,19 +859,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/project_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.083333" vertical-offset="697" max-vertical-offset="1665">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-          <folding />
+        <state vertical-scroll-proportion="-9.083333" vertical-offset="1072" max-vertical-offset="2250">
+          <caret line="86" column="81" selection-start-line="86" selection-start-column="81" selection-end-line="86" selection-end-column="81" />
+          <folding>
+            <element signature="e#6253#6279#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/models/file.py">
+    <entry file="file://$PROJECT_DIR$/portfolio/utils/data/svn_log.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49723756" vertical-offset="0" max-vertical-offset="540">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#56#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2829582" vertical-offset="37382" max-vertical-offset="47940">
+          <caret line="2498" column="14" selection-start-line="2498" selection-start-column="14" selection-end-line="2498" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
