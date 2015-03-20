@@ -32,6 +32,7 @@
                 <dl>
                     <dt>Files</dt>
                     {% for file in project.file_list %}
+                        {# Set the direction and color of file panel #}
                         {% if loop.index % 2 == 0 %}
                             {% set direction = "pos-right" %}
                             {% set color = "CCD1D9" %}
@@ -63,7 +64,7 @@
                                         <button type="button" class="btn btn-info" data-toggle="modal"
                                                 data-target=".file{{ loop.index }}">Show Revision History
                                         </button>
-
+                                        {# Revision History Modal #}
                                         <div class="modal file{{ loop.index }}" role="dialog">
                                             <div class="modal-dialog modal-lg">
                                                 <div class="modal-content">
@@ -109,7 +110,7 @@
     </div>
 
 
-
+    {# File Browser Modal #}
     <div class="modal" id="myModal">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -128,9 +129,13 @@
 
     <script>
         function showModal(type, path) {
+            /*
+            Display the modal
+             */
             var modal = $('#myModal');
             var absolute_path = "https://subversion.ews.illinois.edu/svn/sp15-cs242/xzhu15/" + path;
             var displayElement;
+            // Set the content of the modal based on the file type
             if (type == 'image') {
                 displayElement = "<img src='" + absolute_path + "'></img>"
             }
