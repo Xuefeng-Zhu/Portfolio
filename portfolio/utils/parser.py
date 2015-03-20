@@ -15,8 +15,8 @@ def parse_svn_list():
     with open(file_path) as f:
         data = xmltodict.parse(f)
 
-    entry = data["lists"]["list"]["entry"]
-    for item in entry:
+    entries = data["lists"]["list"]["entry"]
+    for item in entries:
         if item["@kind"] == "dir":
             name = item["name"].split("/")
             if len(name) == 1:
@@ -29,7 +29,7 @@ def parse_svn_list():
     return project_dict
 
 
-def parse_svn_log():
+def parse_svn_log(project_dict=None):
     log_dict = OrderedDict()
     file_path = os.path.join(os.path.dirname(__file__),
                              'data/svn_log.xml')
@@ -40,5 +40,20 @@ def parse_svn_log():
 
     for log in logs:
         log_dict[log["@revision"]] = Log(log)
-
+        if project_dict is not None:
+            assign_file_revision(project_dict, log)
     return log_dict
+
+
+def assign_file_revision(project_dict, log):
+    paths = log["paths"]["path"]
+    if not isinstance(paths, list):
+        paths = [paths]
+    for item in paths:
+        if item["@kind"] == "file":
+            file_path = item["#text"].split("/")
+            project = project_dict[file_path[2]]
+            file_revision_list = project.file_dict.setdefault("/".join(file_path[3:]), [])
+            file_revision_list.append(log["@revision"])
+
+

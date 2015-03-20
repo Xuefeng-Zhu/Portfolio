@@ -9,7 +9,7 @@ from portfolio.controllers.project_view import project
 
 app = Flask(__name__)
 app.config["project_dict"] = parser.parse_svn_list()
-app.config["log_dict"] = parser.parse_svn_log()
+app.config["log_dict"] = parser.parse_svn_log(app.config["project_dict"])
 
 assets = Environment(app)
 assets.register(bundles)

@@ -9,4 +9,5 @@ class Project:
         self.date = datetime.strptime(commit_dict["date"],
                                       "%Y-%m-%dT%H:%M:%S.%fZ")
         self.revision = commit_dict["@revision"]
-        self.file_list = []
+        self.file_list = list()
+        self.file_dict = dict()
