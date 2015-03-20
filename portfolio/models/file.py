@@ -4,6 +4,11 @@ from collections import OrderedDict
 
 
 class File:
+    """
+    Store the file information
+    """
+
+    # store the type definition
     type_dict = OrderedDict()
     type_dict["code"] = ["java", "py"]
     type_dict["image"] = ["png"]
@@ -23,6 +28,9 @@ class File:
         self.check_type()
 
     def check_type(self):
+        """
+        Check and set the type of the file
+        """
         for type, list in self.type_dict.iteritems():
             for item in list:
                 if item in self.path.lower():

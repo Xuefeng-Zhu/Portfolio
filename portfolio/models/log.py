@@ -3,6 +3,9 @@ from datetime import datetime
 
 
 class Log:
+    """
+    Store the information of a log
+    """
     def __init__(self, log_dict):
         self.revision = log_dict["@revision"]
         self.author = log_dict["author"]
