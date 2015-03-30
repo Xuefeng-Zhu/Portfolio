@@ -14,7 +14,7 @@ def index():
                            log_dict=current_app.config["log_dict"])
 
 
-@project.route("/project/<project_title>")
+@project.route("/<project_title>")
 def project_detail(project_title):
     """
     Render the project detail page

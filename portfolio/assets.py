@@ -14,6 +14,11 @@ bundles = {
     "main_css": Bundle(
         "css/bootflat.min.css",
         output="public/css/main.css",
+    ),
+    "angular_js": Bundle(
+        "js/angular.js",
+        "js/app_controller.js",
+        output="public/js/angular.js"
     )
 
 }

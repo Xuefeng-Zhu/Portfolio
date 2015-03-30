@@ -3,7 +3,7 @@
 {% block title %} Project | {{ project.title }} {% endblock %}
 
 {% block body %}
-    <div class="row">
+    <div class="row" ng-app>
         <div class="col-md-12">
             <h4>{{ project.title }}</h4>
 
@@ -27,85 +27,116 @@
                 </a>
             </div>
 
-            {#File List#}
-            <div class="timeline">
-                <dl>
-                    <dt>Files</dt>
-                    {% for file in project.file_list %}
-                        {# Set the direction and color of file panel #}
-                        {% if loop.index % 2 == 0 %}
-                            {% set direction = "pos-right" %}
-                            {% set color = "CCD1D9" %}
-                        {% else %}
-                            {% set direction = "pos-left" %}
-                            {% set color = "AAB2BD" %}
-                        {% endif %}
-                        <dd class="{{ direction }} clearfix">
-                            <div class="circ"></div>
-                            <div class="time">{{ file.revision }}</div>
-                            <div class="events" style="background-color:#{{ color }}">
-                                <div class="events-body">
-                                    <h4 class="events-heading">{{ file.path }}</h4>
+            <div>
+                {# Nav Tab #}
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="active"><a href="#files" data-toggle="tab">Files</a></li>
+                    <li><a href="#comments" data-toggle="tab">Comments</a></li>
+                </ul>
 
-                                    <p><b>Size: </b> {{ file.size }}</p>
+                {# Tab Content #}
+                <div class="tab-content">
+                    <div class="tab-pane active" id="files">
+                        {#File List#}
+                        <div class="timeline">
+                            <dl>
+                                <dt>Files</dt>
+                                {% for file in project.file_list %}
+                                    {# Set the direction and color of file panel #}
+                                    {% if loop.index % 2 == 0 %}
+                                        {% set direction = "pos-right" %}
+                                        {% set color = "CCD1D9" %}
+                                    {% else %}
+                                        {% set direction = "pos-left" %}
+                                        {% set color = "AAB2BD" %}
+                                    {% endif %}
+                                    <dd class="{{ direction }} clearfix">
+                                        <div class="circ"></div>
+                                        <div class="time">{{ file.revision }}</div>
+                                        <div class="events" style="background-color:#{{ color }}">
+                                            <div class="events-body">
+                                                <h4 class="events-heading">{{ file.path }}</h4>
 
-                                    <p><b>Type: </b> {{ file.type }}</p>
+                                                <p><b>Size: </b> {{ file.size }}</p>
 
-                                    <p><b>Author: </b> {{ log_dict[file.revision].author }}</p>
+                                                <p><b>Type: </b> {{ file.type }}</p>
 
-                                    <p><b>Info: </b> {{ log_dict[file.revision].msg }}</p>
+                                                <p><b>Author: </b> {{ log_dict[file.revision].author }}</p>
 
-                                    <p><b>Date: </b> {{ log_dict[file.revision].date }}</p>
+                                                <p><b>Info: </b> {{ log_dict[file.revision].msg }}</p>
 
-                                    <div class="pull-right">
-                                        <button type="button" class="btn btn-primary"
-                                                onclick="showModal('{{ file.type }}', '{{ file.path }}')">View File
-                                        </button>
-                                        <button type="button" class="btn btn-info" data-toggle="modal"
-                                                data-target=".file{{ loop.index }}">Show Revision History
-                                        </button>
-                                        {# Revision History Modal #}
-                                        <div class="modal file{{ loop.index }}" role="dialog">
-                                            <div class="modal-dialog modal-lg">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close" data-dismiss="modal"
-                                                                aria-hidden="true">×
-                                                        </button>
-                                                        <h4 class="modal-title">Revision Browser</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <table class="table table-hover">
-                                                            <thead>
-                                                            <tr>
-                                                                <th>Revision #</th>
-                                                                <th>Author</th>
-                                                                <th>Info</th>
-                                                                <th>Date</th>
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                            {% for revision_n in project.file_dict[file.path] %}
-                                                                <tr>
-                                                                    <th>{{ revision_n }}</th>
-                                                                    <td>{{ log_dict[revision_n].author }}</td>
-                                                                    <td>{{ log_dict[revision_n].msg }}</td>
-                                                                    <td>{{ log_dict[revision_n].date }}</td>
-                                                                </tr>
-                                                            {% endfor %}
-                                                            </tbody>
-                                                        </table>
+                                                <p><b>Date: </b> {{ log_dict[file.revision].date }}</p>
+
+                                                <div class="pull-right">
+                                                    <button type="button" class="btn btn-primary"
+                                                            onclick="showModal('{{ file.type }}', '{{ file.path }}')">
+                                                        View File
+                                                    </button>
+                                                    <button type="button" class="btn btn-info" data-toggle="modal"
+                                                            data-target=".file{{ loop.index }}">Show Revision History
+                                                    </button>
+                                                    {# Revision History Modal #}
+                                                    <div class="modal file{{ loop.index }}" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close"
+                                                                            data-dismiss="modal"
+                                                                            aria-hidden="true">×
+                                                                    </button>
+                                                                    <h4 class="modal-title">Revision Browser</h4>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-hover">
+                                                                        <thead>
+                                                                        <tr>
+                                                                            <th>Revision #</th>
+                                                                            <th>Author</th>
+                                                                            <th>Info</th>
+                                                                            <th>Date</th>
+                                                                        </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                        {% for revision_n in project.file_dict[file.path] %}
+                                                                            <tr>
+                                                                                <th>{{ revision_n }}</th>
+                                                                                <td>{{ log_dict[revision_n].author }}</td>
+                                                                                <td>{{ log_dict[revision_n].msg }}</td>
+                                                                                <td>{{ log_dict[revision_n].date }}</td>
+                                                                            </tr>
+                                                                        {% endfor %}
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </dd>
+                                {% endfor %}
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="comments" ng-controller="CommentController">
+                        <form class="form" ng-submit="makeComment('{{ project.title }}')">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your name"
+                                       ng-model="new_comment.author">
                             </div>
-                        </dd>
-                    {% endfor %}
-                </dl>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" ng-model="new_comment.content"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                        </form>
+
+                        <ul ng-include="'static/partials/comments.html'" class="media-list"
+                            ng-init="comments=comments"></ul>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -127,10 +158,14 @@
         </div>
     </div>
 
+    {% assets "angular_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
     <script>
         function showModal(type, path) {
             /*
-            Display the modal
+             Display the modal
              */
             var modal = $('#myModal');
             var absolute_path = "https://subversion.ews.illinois.edu/svn/sp15-cs242/xzhu15/" + path;
