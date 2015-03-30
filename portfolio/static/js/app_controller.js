@@ -24,21 +24,31 @@ function CommentController($scope, $http) {
     }
 
     $scope.reply = function (parent_comment) {
+        if ($scope.new_reply.author == undefined || $scope.new_reply.author == "" ||
+            $scope.new_reply.content == undefined || $scope.new_reply.content == "") {
+            alert("Author or Content cannot be empty");
+            return;
+        }
+
         $scope.new_reply.parent = parent_comment.id;
         $http.post([url, "comment", project].join("/"), angular.copy($scope.new_reply))
             .success(function (response) {
                 if (parent_comment.children == undefined) {
                     parent_comment.children = [];
-                    $scope.$apply();
                 }
                 parent_comment.children.push(response);
-                console.log(parent_comment)
                 $scope.new_reply = {};
                 $scope.reply_comment = null;
             });
     }
 
     $scope.makeComment = function () {
+        if ($scope.new_comment.author == undefined || $scope.new_comment.author == "" ||
+            $scope.new_comment.content == undefined || $scope.new_comment.content == "") {
+            alert("Author or Content cannot be empty");
+            return;
+        }
+
         $http.post([url, "comment", project].join("/"), angular.copy($scope.new_comment))
             .success(function (response) {
                 $scope.comments.push(response);
