@@ -21173,28 +21173,11 @@ var styleDirective = valueFn({
 var url = location.origin;
 
 function CommentController($scope, $http) {
-    $scope.comments = [
-        {
-            id: 1,
-            author: "Frank",
-            content: "Bla Bla",
-            date: "12/12/2012",
-            children: [
-                {
-                    id: 2,
-                    author: "Mike",
-                    content: "Bla Bla",
-                    data: "12/12/2012"
-                },
-                {
-                    id: 3,
-                    author: "Tim",
-                    content: "Bla Bla",
-                    data: "12/12/2012"
-                }
-            ]
-        }
-    ]
+    var project = location.pathname.slice(1);
+    $http.get([url, "comment", project].join("/"))
+        .success(function (response) {
+            $scope.comments = response.data;
+        })
 
     $scope.new_comment = {};
 
@@ -21209,25 +21192,26 @@ function CommentController($scope, $http) {
     }
 
     $scope.reply = function (parent_comment) {
-        if (parent_comment.children == undefined) {
-            parent_comment.children = [];
-        }
-
-        $scope.new_reply.date = new Date().toDateString();
-        parent_comment.children.push(angular.copy($scope.new_reply));
-        $scope.new_reply = {};
-        $scope.reply_comment = null;
+        $scope.new_reply.parent = parent_comment.id;
+        $http.post([url, "comment", project].join("/"), angular.copy($scope.new_reply))
+            .success(function (response) {
+                if (parent_comment.children == undefined) {
+                    parent_comment.children = [];
+                    $scope.$apply();
+                }
+                parent_comment.children.push(response);
+                console.log(parent_comment)
+                $scope.new_reply = {};
+                $scope.reply_comment = null;
+            });
     }
 
-    $scope.makeComment = function (project) {
-        $scope.new_comment.date = new Date().toDateString();
-        $scope.comments.push(angular.copy($scope.new_comment));
+    $scope.makeComment = function () {
+        $http.post([url, "comment", project].join("/"), angular.copy($scope.new_comment))
+            .success(function (response) {
+                $scope.comments.push(response);
+            });
         $scope.new_comment = {};
     }
 
-    var data = {good: "Hello"}
-    $http.post([url, "comment/Assignment"].join("/"), data)
-        .success(function(reponse){
-            console.log(reponse);
-        })
 }

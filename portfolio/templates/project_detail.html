@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="tab-pane" id="comments" ng-controller="CommentController">
-                        <form class="form" ng-submit="makeComment('{{ project.title }}')">
+                        <form class="form" ng-submit="makeComment()">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your name"
                                        ng-model="new_comment.author">
