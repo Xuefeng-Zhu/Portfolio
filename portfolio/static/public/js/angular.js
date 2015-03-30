@@ -21170,7 +21170,9 @@ var styleDirective = valueFn({
  * Created by Xuefeng Zhu on 3/29/15.
  */
 
-function CommentController($scope) {
+var url = location.origin;
+
+function CommentController($scope, $http) {
     $scope.comments = [
         {
             id: 1,
@@ -21222,4 +21224,10 @@ function CommentController($scope) {
         $scope.comments.push(angular.copy($scope.new_comment));
         $scope.new_comment = {};
     }
+
+    var data = {good: "Hello"}
+    $http.post([url, "comment/Assignment"].join("/"), data)
+        .success(function(reponse){
+            console.log(reponse);
+        })
 }
