@@ -1,6 +1,8 @@
 __author__ = 'Xuefeng Zhu'
 from flask import render_template, current_app, Blueprint, request, jsonify, abort
 from portfolio.models.comment import Comment
+from portfolio.models.filter import Filter
+import re
 
 
 project = Blueprint("project", __name__)
@@ -52,6 +54,7 @@ def post_comment(project_title):
     if author is None or content is None:
         abort(400)
 
+    content = filter_comment(content)
     if request.json.get("parent") is None:
         comment = Comment(project=project_title, author=author, content=content)
         comment.save()
@@ -66,6 +69,14 @@ def post_comment(project_title):
             abort(400)
 
         return jsonify(comment_serialize(comment))
+
+
+def filter_comment(content):
+    filters = Filter.objects().all()
+    for filter in filters:
+        content = re.sub(r'\b%s\b' % filter.red_flag_word, filter.replacement, content)
+
+    return content
 
 
 def comment_serialize(comment):
