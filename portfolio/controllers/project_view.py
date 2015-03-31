@@ -34,6 +34,11 @@ def project_detail(project_title):
 
 @project.route("/comment/<project_title>", methods=["GET", "POST"])
 def project_comment(project_title):
+    """
+    Function to perform operation on comments
+    :param project_title:
+    :return: comments in json format
+    """
     if request.method == "GET":
         return get_comments(project_title)
     elif request.method == "POST":
@@ -43,17 +48,28 @@ def project_comment(project_title):
 
 
 def get_comments(project_title):
+    """
+    Get a list of comments in a specific project
+    :param project_title:
+    :return: comments in json
+    """
     comments = Comment.objects(project=project_title)
     return jsonify(data=comment_list_serialize(comments))
 
 
 def post_comment(project_title):
+    """
+    Post a comment or reply to a comment in a specific project
+    :param project_title:
+    :return: the comment posted in json
+    """
     author = request.json.get("author")
     content = request.json.get("content")
     if author is None or content is None:
         abort(400)
 
-    content = filter_comment(content)
+    content = filter_comment(content)  # filter the comment
+    # Check if the user is going to post a comment or reply to a comment
     if request.json.get("parent") is None:
         comment = Comment(project=project_title, author=author, content=content)
         comment.save()
@@ -71,6 +87,11 @@ def post_comment(project_title):
 
 
 def filter_comment(content):
+    """
+    Filter the content of comment by replacing red flag words
+    :param content:
+    :return: content after filtered
+    """
     filters = Filter.objects().all()
     for filter in filters:
         content = re.sub(r'\b(?i)%s\b' % filter.red_flag_word, filter.replacement, content)
@@ -79,6 +100,11 @@ def filter_comment(content):
 
 
 def comment_serialize(comment):
+    """
+    Turn comment object into dictionary
+    :param comment:
+    :return: comment in dict
+    """
     return {
         "id": str(comment.id),
         "author": comment.author,
@@ -89,6 +115,11 @@ def comment_serialize(comment):
 
 
 def comment_list_serialize(comments):
+    """
+    Turn a list of comments object into a list comments dictionary
+    :param comments:
+    :return: a list of comments
+    """
     result = []
     for comment in comments:
         result.append(comment_serialize(comment))

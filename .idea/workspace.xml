@@ -44,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project_view.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project_view.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/controllers/project_view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1013" max-vertical-offset="1590">
-              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state vertical-scroll-proportion="3.2490976" vertical-offset="0" max-vertical-offset="2055">
+              <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
               <folding>
                 <element signature="e#27#109#0" expanded="true" />
               </folding>
@@ -56,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/models/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027075812" vertical-offset="0" max-vertical-offset="554">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -96,7 +96,6 @@
         <option value="$PROJECT_DIR$/portfolio/app.py" />
         <option value="$PROJECT_DIR$/portfolio/static/js/app_controller.js" />
         <option value="$PROJECT_DIR$/tests/test_project_view.py" />
-        <option value="$PROJECT_DIR$/portfolio/controllers/project_view.py" />
         <option value="$PROJECT_DIR$/tests/test_comment.py" />
         <option value="$PROJECT_DIR$/portfolio/utils/set_red_flag.py" />
         <option value="$PROJECT_DIR$/portfolio/static/partials/comments.html" />
@@ -104,6 +103,7 @@
         <option value="$PROJECT_DIR$/portfolio/models/comment.py" />
         <option value="$PROJECT_DIR$/portfolio/models/filter.py" />
         <option value="$PROJECT_DIR$/portfolio/models/__init__.py" />
+        <option value="$PROJECT_DIR$/portfolio/controllers/project_view.py" />
       </list>
     </option>
   </component>
@@ -973,21 +973,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/controllers/project_view.py">
+    <entry file="file://$PROJECT_DIR$/portfolio/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1013" max-vertical-offset="1590">
-          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="e#27#109#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/models/__init__.py">
+    <entry file="file://$PROJECT_DIR$/portfolio/controllers/project_view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027075812" vertical-offset="0" max-vertical-offset="554">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="3.2490976" vertical-offset="0" max-vertical-offset="2055">
+          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
+          <folding>
+            <element signature="e#27#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
