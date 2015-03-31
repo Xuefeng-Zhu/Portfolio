@@ -21,7 +21,7 @@ class TestProjectView(unittest.TestCase):
         """
         Test if the project detail page can display required information
         """
-        rv = self.app.get("/project/Assignment0")
+        rv = self.app.get("/Assignment0")
         self.assertIn("Assignment0", rv.data)
         self.assertIn("2015-02-04 21:57:12.156363", rv.data)
         self.assertIn("221", rv.data)

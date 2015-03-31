@@ -50,7 +50,6 @@ def get_comments(project_title):
 def post_comment(project_title):
     author = request.json.get("author")
     content = request.json.get("content")
-
     if author is None or content is None:
         abort(400)
 
@@ -74,7 +73,7 @@ def post_comment(project_title):
 def filter_comment(content):
     filters = Filter.objects().all()
     for filter in filters:
-        content = re.sub(r'\b%s\b' % filter.red_flag_word, filter.replacement, content)
+        content = re.sub(r'\b(?i)%s\b' % filter.red_flag_word, filter.replacement, content)
 
     return content
 
