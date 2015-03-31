@@ -1,5 +1,7 @@
 __author__ = 'Xuefeng Zhu'
-
+"""
+    The script used to import filter words into database
+"""
 from portfolio.models.filter import Filter
 from portfolio.app import app
 

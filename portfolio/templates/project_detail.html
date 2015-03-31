@@ -6,7 +6,7 @@
     <div class="row" ng-app>
         <div class="col-md-12">
             <h4>{{ project.title }}</h4>
-
+            {# Project Information #}
             <div class="list-group">
                 <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Date</h4>
@@ -120,6 +120,7 @@
                         </div>
                     </div>
                     <div class="tab-pane" id="comments" ng-controller="CommentController">
+                        {# Form for submiting comment #}
                         <form class="form" ng-submit="makeComment()">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your name"
@@ -131,6 +132,7 @@
                             <button type="submit" class="btn btn-primary pull-right">Submit</button>
                         </form>
 
+                        {# Embeded comment view #}
                         <ul ng-include="'static/partials/comments.html'" class="media-list"
                             ng-init="comments=comments"></ul>
                     </div>
